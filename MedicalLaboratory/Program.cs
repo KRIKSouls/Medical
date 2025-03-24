@@ -34,6 +34,7 @@ namespace MedicalLaboratory
         public override void DisplayInfo()
         {
             Console.WriteLine($"Пациент: {Name}, Дата рождения: {DateOfBirth.ToShortDateString()}, Пол: {Gender}");
+            Console.WriteLine($"Добавлен новый пациент!");
         }
     }
 
